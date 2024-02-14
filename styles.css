@@ -1,3 +1,20 @@
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    line-height: 30px;
+    width: 50%;
+    vertical-align: top;
+    margin-bottom: 50px;
+    transition: all .7s;
+}
+.container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 body{
     font-family: 'Droid Serif', serif;
     font-size: 14px;
@@ -9,10 +26,9 @@ header{
     font-weight: 900;
     font-size: 80px;
     text-transform: uppercase;
-    display: inline-block;
     line-height: 72px;
     margin-bottom: 20px;
-
+    padding-left: 20px;
 }
 p{
     margin-top: 0;
@@ -145,7 +161,7 @@ p{
 
 .collumn .headline.hl5{
     font-weight: 400;
-    font-size: 42px;
+    font-size: 30px;
     text-transform: uppercase;
     font-style: italic;
     box-sizing: border-box;
